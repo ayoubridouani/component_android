@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string-array name="listV">
+        <item>Camera</item>
+        <item>Micro</item>
+        <item>Extra</item>
+    </string-array>
+</resources>

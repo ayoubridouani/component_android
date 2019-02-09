@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="spinner">
+        <item>c</item>
+        <item>c++</item>
+        <item>everytime c</item>
+        <item>everyone c</item>
+    </string-array>
+    <string name="choice">Choice your choice</string>
+</resources>

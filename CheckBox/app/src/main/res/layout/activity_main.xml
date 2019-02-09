@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice"
+        android:text="Choice your Favorite fruit :"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbx1"
+        android:text="pomme"
+        android:layout_below="@id/choice"
+        android:onClick="checkOptions"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbx2"
+        android:text="banana"
+        android:layout_below="@id/chbx1"
+        android:onClick="checkOptions"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbx3"
+        android:text="kiwi"
+        android:layout_below="@id/chbx2"
+        android:onClick="checkOptions"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/click"
+        android:text="Done"
+        android:layout_below="@id/chbx3"
+        android:onClick="show"
+        />
+</RelativeLayout>
